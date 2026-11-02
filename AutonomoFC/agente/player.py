@@ -172,6 +172,9 @@ class Agent:
         power = min(100, acc / max(eff, 1e-3))
         kdir = norm_angle(math.degrees(math.atan2(ay, ax)) - w.body)
         self.send('(kick %.1f %.1f)' % (power, kdir))
+        # actualización optimista del modelo: el balón sale con la velocidad pedida
+        got = min(1.0, power * eff / max(acc, 1e-6))
+        b.vel = (b.vel[0] + ax * got, b.vel[1] + ay * got)
 
     def look(self):
         """Cuello: sigue el balón si se conoce, si no barre el campo."""

@@ -14,7 +14,7 @@ $SRV server::synch_mode=$SYNCH server::auto_mode=true server::half_time=$HT \
   server::game_log_dir=./ server::text_log_dir=./ server::game_log_dated=false \
   server::text_log_dated=false server::game_log_fixed=true server::text_log_fixed=true \
   server::game_log_fixed_name=match server::text_log_fixed_name=match \
-  server::kick_off_wait=30 server::connect_wait=50 server::game_over_wait=20 \
+  server::kick_off_wait=30 server::connect_wait=100000 server::game_over_wait=20 \
   player::random_seed=$SEED > server.out 2>&1 &
 SPID=$!
 sleep 1
