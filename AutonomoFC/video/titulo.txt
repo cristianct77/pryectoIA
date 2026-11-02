@@ -1,0 +1,7 @@
+Proyecto final - Entrega de avance
+
+Validación de jugadores virtuales autónomos
+RoboCup Soccer Simulation 2D
+
+Equipo: AutonomoFC (agente propio en Python)
+Servidor: rcssserver 19.0.0   Monitor: rcssmonitor 19.0.1

@@ -1,0 +1,17 @@
+rcssserver-19.0.0
+Using given Hetero Player Seed: 1
+Waiting for players to connect
+A new (v19) player (AutonomoFC 1) connected.
+   ... (AutonomoFC 2..11)
+A new (v19) player (BaselineChaser 1) connected.
+   ... (BaselineChaser 2..11)
+Waiting to kick off
+rcssserver changes (player AutonomoFC 2) to type 1
+   ... (tipos heterogeneos 1..10)
+Kick_off_left
+Kick_off_right
+Game Over. Exiting...
+Game Results:
+  2026-11-02 09:47:30
+  'AutonomoFC' vs 'BaselineChaser'
+  Score: 22 - 0

@@ -1,0 +1,10 @@
+Evidencia del servidor (salida real, partido E1)
+
+$ rcssserver server::synch_mode=true server::auto_mode=true ...
+rcssserver-19.0.0
+Waiting for players to connect
+A new (v19) player (AutonomoFC 1..11) connected.
+A new (v19) player (BaselineChaser 1..11) connected.
+Waiting to kick off
+Kick_off_left  ...  Kick_off_right  ...  Game Over.
+'AutonomoFC' vs 'BaselineChaser'   Score: 22 - 0

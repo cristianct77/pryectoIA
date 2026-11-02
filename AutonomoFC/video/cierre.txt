@@ -1,0 +1,8 @@
+Resultados preliminares (11 partidos completos, 2 x 3000 ciclos)
+
+E1  vs BaselineChaser (5 partidos):  18.6 - 0.0 goles,  posesión 76 %
+E2  lados invertidos  (3 partidos):  17.0 - 0.7 goles,  posesión 76 %
+E3  vs HELIOS-base    (3 partidos):   0.0 - 29.3 goles, posesión 33 %
+
+Error de auto-localización: P50 = 0.12 m,  P90 = 0.38 m
+Siguiente paso: comunicación, defensa colectiva y ajuste contra HELIOS-base
