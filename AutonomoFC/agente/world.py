@@ -165,7 +165,12 @@ class World:
         raw_players = []
         for obj in msg[2:]:
             name = obj[0]
-            vals = [float(v) for v in obj[1:]]
+            vals = []
+            for v in obj[1:]:
+                try:
+                    vals.append(float(v))
+                except (TypeError, ValueError):
+                    pass                         # marcas 'k'/'t' (patada/tackle) en v19
             if len(vals) < 2:
                 continue
             key = ' '.join(name)
