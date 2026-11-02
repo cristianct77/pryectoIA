@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+# Salidas de partidos (logs pesados del servidor)
+runs/
+*.rcg
+*.rcl
+agents/
+# Video (se publica por enlace)
+*.mp4
+# LaTeX
+*.aux
+*.log
+*.out
